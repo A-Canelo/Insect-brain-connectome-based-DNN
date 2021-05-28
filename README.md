@@ -1,10 +1,9 @@
 # Insect-brain-connectome-based-DNN
 Fruit fly Drosophila connectome-based deep neural network. This model is made up by a combination of CNN-RNN and mimics the visual system of Drosophila in detail following the information in the existing connectomes of the mentioned insect. The network preocesses the given frames and predicts the 3 dimensions position (x, y, z) of the object which appears in the frames.
 
-"connectome_CNN_RNN_training.py"
->>	This file contains the DNN model and it loads the data and trains the model. It also shows the performance and the prediction of the training data.
->>	- 1 Vestibular system model  
->>>	- "Seleccion de hipotesis para los canales semicirculares" menu allows to choose among 2 hypothesis: orthogonal or non orthogonal canals.
+Files and folders
+>>	"connectome_CNN_RNN_training.py"
+>>>	- This file contains the DNN model and it loads the data and trains the model. It also shows the performance and the prediction of the training data.
 >>>	- "Seleccion del tipo de velocidad angular de la plataforma giratoria" menu allows to choose the stimulus angular velocity among constant, trapezoidal or sinusoidal.  
 >>>	- "Considerar movimiento de la cabeza?" menu allows to choose whether you want to consider angular motion of the hypothetical "head" or consider it static  
 >>>	- "Seleccion del tipo de velocidad angular de la cabeza en cada eje" menu will be available in the case you chose in the previous menu the option "con movimiento",	that is considering angular motion. Choose between "alabeo", "cabeceo", "guinada" or "combinado" for roll, pich, yaw or combined respectively.  
