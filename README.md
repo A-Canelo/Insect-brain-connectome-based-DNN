@@ -4,9 +4,9 @@ Fruit fly Drosophila connectome-based deep neural network. This model is made up
 Files and folders
 >>	"connectome_CNN_RNN_training.py"
 >>>	- This file contains the DNN model and it loads the data and trains the model. It also shows the performance of the training and the prediction of the training data.
->>	- "connectome_CNN_RNN_evaluation.py"
+>>	"connectome_CNN_RNN_evaluation.py"
 >>>	- This file loads the data and the pre-trained model. Then it runs the simulation with the test data and shows the prediction and performance. It also shows the convolution filter initial weights and the learned weights.
->>	- "data"
+>>	"data"
 >>>	- This folder contains the file "DAVIS_CNNRNN_data.mat", which is the preprocessed DAVIS 2016 dataset (https://davischallenge.org/), including the labels for the training and evaluation files.
->>	- "connectome_model_CNNRNN_v3"
+>>	"connectome_model_CNNRNN_v3"
 >>>	- This folder contains the pre-trained model. The model is loaded by the "connectome_CNN_RNN_evaluation.py" file mentioned above.
