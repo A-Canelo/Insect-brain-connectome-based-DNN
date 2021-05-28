@@ -8,5 +8,5 @@ Files and folders
 >>>	- This file loads the data and the pre-trained model. Then it runs the simulation with the test data and shows the prediction and performance. It also shows the convolution filter initial weights and the learned weights.
 >>	- "data"
 >>>	- This folder contains the file "DAVIS_CNNRNN_data.mat", which is the preprocessed DAVIS 2016 dataset (https://davischallenge.org/), including the labels for the training and evaluation files.
->>	- "connectome_model_CNNRNN_v3"
->>>	- This folder contains the pre-trained model. The model is loaded by the "connectome_CNN_RNN_evaluation.py" file mentioned above.
+>>	-  Pre-trained model "connectome_model_CNNRNN_v3"
+>>>	- You can find the pre-trained model at https://drive.google.com/drive/folders/1DVU8cIN3H_7P7EMtxzeOB5BdHxUmJUd9?usp=sharing. The model is loaded by the "connectome_CNN_RNN_evaluation.py" file mentioned above.
