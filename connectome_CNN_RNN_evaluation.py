@@ -50,7 +50,6 @@ y_true = np.stack((pos_x, pos_y, pos_z), axis=1); print('Array of true outputs',
 ###### Load model ##################
 connectome_cnn = load_model('connectome_model_CNNRNN_v3')
 print(connectome_cnn.summary())
-#results = connectome_cnn.evaluate(input_frames, y_true, batch_size=10); print(results[0])
 ####################################
 ###### Predict DAVIS test data #####
 pred_davis = connectome_cnn.predict(timed_fr); print('Shape of prediction', pred_davis.shape)
