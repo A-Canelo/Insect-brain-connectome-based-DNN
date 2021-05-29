@@ -1,4 +1,4 @@
-# Connectome-based CNN-RNN neurIPS
+# Connectome-based CNN-RNN
 # 2021.03.16    Angel Canelo
 
 ###### import ######################
@@ -348,7 +348,7 @@ def init_weights_LPLC2T5d(shape, dtype=None):
 ###### Dataset preparation #########
 test_set = ['rollerblade', 'scooter-black','scooter-gray', 'soapbox', 'soccerball',
             'stroller', 'surf', 'swing', 'tennis', 'train']
-data = read_mat('.\\test and training data\\prepared data\\DAVIS_CNNRNN_data.mat')
+data = read_mat('.\\data\\DAVIS_CNNRNN_data.mat')
 print(data.keys())
 # Training data
 pos_x = np.array([]); pos_y = np.array([]); pos_z = np.array([])
