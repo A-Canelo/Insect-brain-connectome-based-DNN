@@ -1,4 +1,4 @@
-# Connectome-based CNN-RNN neurIPS
+# Connectome-based CNN-RNN
 # 2021.03.16    Angel Canelo
 
 ###### import ######################
